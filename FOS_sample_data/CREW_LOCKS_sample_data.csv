@@ -1,0 +1,3 @@
+employee_nbr,date_time,iata,last_name
+row1teststring1,2015-02-10 20:03:12.719000000,row1teststring2,row1teststring3
+row2teststring1,2016-02-10 20:03:12.719000000,row2teststring2,row2teststring3

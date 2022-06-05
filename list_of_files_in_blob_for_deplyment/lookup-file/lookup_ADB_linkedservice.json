@@ -1,0 +1,26 @@
+{	
+	"batch_auto_clstr_config" : {
+		"dom_reg" : "https://eastus.azuredatabricks.net",
+		"akv_secret_nm" : "n-optrk-cicd-adbtoken-secret",
+		"prvdr_type" : "org.apache.hadoop.fs.azurebfs.oauth2.ClientCredsTokenProvider",
+		"client_endpnt" : "https://login.microsoftonline.com/49793faf-eb3f-4d99-a0cf-aef7cce79dc1/oauth2/token",
+		"client_id" : "102bea70-9919-45fb-85fa-1f2867f3f2f9",
+		"client_secret" : "{{secrets/n-optrk-sp-secret-scope/ba-n-optrk-001-sp-secret}}",
+		"auth_type" : "OAuth",
+		"adb_delt_prev_enable" : "true",
+		"stop_active_run" : "true",
+		"aa_location" : "eastus",
+		"aa_vertical" : "ba",
+		"aa_subservice" : "orion-adb",
+		"aa_application" : "optrk",
+		"aa_security" : "reserved",
+		"aa_costcenter" : "0900/1973",
+		"aa_app_id" : "189986",
+		"ba_data_product" : "customer",
+		"aa_sdlc_env" : "nonprod",
+		"clstr_drv_nd_type" : "Standard_D12_v2",
+		"clstr_vrsn" : "6.4.x-scala2.11",
+		"clstr_nd_type" : "Standard_D12_v2",
+		"workers" : "2"
+	}
+}

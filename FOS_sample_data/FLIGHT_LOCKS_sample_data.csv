@@ -1,0 +1,6 @@
+flt_num,dep_sta,dup_dep_sta_num,flt_org_date,date_time,iata,arr_sta,ltd
+1825,PHL,0,2/9/2015 0:00,03:12.7,US,IAH,
+310,MIA,0,10/15/2017 0:00,03:04.6,AA,LGA,
+176,NRT,0,2/24/2020 0:00,28:30.6,AA,DFW,
+383,ORD,1,10/28/2016 0:00,00:59.9,AA,ORD,19:18
+2546,MEX,0,1/22/2020 0:00,21:07.7,AA,LAX,
